@@ -1,0 +1,271 @@
+
+:root{
+  --white-color: #FCFBFC;
+  --background-color: #EFEFEF;
+  --dark: #000;
+  --primary-color: #1A936F;
+  --primary-color-light: #2da17e;
+  --info-color: #C42021;
+  --contraste-color: #41658A;
+  --gris-oscuro: #979797;
+}
+
+/* ==================== HEADER ==================== */
+
+.header{
+  display: grid ;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--dark);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.header-logo{
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  width: 4.3em;
+  margin-left: 2em;
+}
+
+.header-titulo{
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  color: var(--white-color);
+}
+
+.header ul{
+  align-items: center;
+  margin: auto;
+}
+
+
+/* ==================== BOTON ==================== */
+
+.btn{
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  cursor: pointer;
+  border: none;
+  padding: 0.5em 1em;
+}
+
+.btn:hover{
+  background-color: var(--primary-color);
+}
+
+/* ==================== LOGIN ==================== */
+/* ==================== LOGIN ==================== */
+/* ==================== LOGIN ==================== */
+/* ==================== LOGIN ==================== */
+
+/* ==================== MAIN ==================== */
+
+.login-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  /* background-color: var(--background-color); */
+  background-image: url('../assets/terraria-login.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 53rem;
+}
+
+.login-container{
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  margin-bottom: 10%;
+  width: 25em;
+  height: 25em;
+  background-color: var(--white-color);
+  border-radius: 1em;
+  border: 1px solid var(--primary-color);
+}
+
+.login-container h2{
+  grid-row: 1;
+  text-align: center;
+  margin: 2em 0;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+.formulario{
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.label-usuario{
+  margin: 0 17em 0.4em 0;
+}
+
+.label-contrasenia{
+  margin: 0 15em 0.4em 0;
+}
+
+.fInput{
+  width: 85%;
+  height: 2.5em;
+  padding: 0.5em;
+  background-color: var(--white-color);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--gris-oscuro);
+}
+
+.fInput:focus{
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* ==================== "ERROR" ==================== */
+
+.formulario div{
+  padding: 0.3em 0 1.5em 0;
+  text-align: center;
+}
+
+#errorUsuario{
+  font-weight: 600;
+  font-size: 0.8em;
+  color: var(--info-color);
+}
+
+#errorContrasenia{
+  font-weight: 600;
+  font-size: 0.8em;
+  color: var(--info-color);
+}
+
+/* ==================== HOME ==================== */
+/* ==================== HOME ==================== */
+/* ==================== HOME ==================== */
+/* ==================== HOME ==================== */
+
+/* ==================== MAIN ==================== */
+
+.body-home{
+  background-color: var(--background-color);
+}
+
+.home-main{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  background-size: cover;
+  height: 58rem;
+}
+
+/* ==================== SECTION FUNCIONES ==================== */
+
+.main-funciones{
+  margin: 3em 0;
+  padding: 1em 15em;
+  border-bottom: 1px solid var(--contraste-color);
+  border-top: 1px solid var(--contraste-color);
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+.main-funciones h2{
+  text-align: center;
+  margin-bottom: 0.8em;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+.btnEnviar{
+  display: flex;
+  justify-content: center;
+}
+
+/* ==================== SECTION TABLA ==================== */
+
+.main-tabla{
+  margin: 1em 0;
+}
+
+.tabla-productos{
+  /* border: 2px solid var(--primary-color); */
+  border-collapse: collapse;
+}
+
+.tabla-productos thead{
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.tabla-productos td, th{
+  text-align: center;
+  padding: 12px;
+}
+
+.tabla-productos tr:nth-child(even){
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+
+ul{
+  display: flex;
+  margin-right: 2em;
+  justify-content: end;
+  list-style: none;
+}
+
+ul li{
+  margin-right: 1em;
+}
+
+ul a{
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.fInput2{
+  width: 90%;
+  height: 2em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background-color: var(--white-color);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--gris-oscuro);
+}
+
+.fInput2:focus{
+  border-bottom: 2px solid var(--primary-color);
+}
+
+
+a {
+  cursor: pointer;
+}
+
+a:hover{
+  color: var(--info-color);
+}
+
+/* ==================== QUITAR FLECHAS DEL INPUT NUMBER ==================== */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+
+

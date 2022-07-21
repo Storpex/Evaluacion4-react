@@ -1,0 +1,217 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+body{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+/*        HEADER
+============================*/
+
+nav{
+  background-color: #000;
+  border-bottom: 2px solid greenyellow;
+}
+
+.logo-nav{
+  margin: 7px 0 0 50px;
+  width: 15.625rem;
+}
+
+
+
+/*        SECCION 1
+============================*/
+
+.home-main{
+  background-image: url('../assets/forest-back3.png');
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.main-container{
+  height: 53rem;
+}
+
+.main-container__text{
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.main-container__text h1{
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+.main-container__text p{
+  text-shadow: 0 0 5px black;
+  font-size: 1.6rem;
+}
+
+
+
+/*        SECCION 2
+============================*/
+
+.galeria-main{
+  background-image: url('../assets/underworld-back.png');
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-color: #000;
+  height: 53rem;
+}
+
+.galeria-main h3{
+  color: #fff;
+  border-bottom: 1px solid #cdd2da;
+  text-shadow: 2px 2px 5px black;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+
+
+/*        SECCION 3
+============================*/
+
+.seccion4{
+  background-image: url('../assets/dirt-back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #000;
+  height: 53rem;
+}
+
+.seccion4-info{
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.seccion4-info h4{
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.seccion4-info p{
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0%;
+  color: #000;
+}
+
+.seccion4 img{
+  width: 20rem;
+  margin-left: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+
+/*        SECCION 4
+============================*/
+
+.seccion6{
+  background-image: url('../assets/terraria-house.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  height: 53rem;
+}
+
+.seccion6 form{
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.seccion6 h4{
+  padding: 0 2rem 1rem 2rem;
+  border-bottom: 1px solid #cdd2da;
+}
+
+
+/*        FOOTER
+============================*/
+
+.lava-footer{
+  background-image: url("../assets/footer.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.lava-footer p{
+  text-align: center;
+  text-shadow: 1px 1px black;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 1366px){
+  .seccion1-info p{
+      font-size: 20px;
+  }
+  .seccion3-info h4{
+      font-size: 30px;
+  }
+  .seccion3-info p{
+      font-size: 20px;
+  }
+  .seccion3 img{
+      width: 500px;
+  }
+} */
+
+/*
+.seccion4{
+  background-color: #000;
+  height: 53rem;
+
+
+
+  background-image: url('../Terraria/assets/underworld-back.png');
+  background-image: url('../Terraria/assets/dirt-back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #000;
+  height: 53rem;
+} */
